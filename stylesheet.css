@@ -7,7 +7,7 @@ body {
   border: 2px  rgba(255, 255, 255, 0.1);
   width: cover;
   height: 100%;
-  grid-template-columns: 25% 25% 1fr 1fr 1fr 1fr;
+  grid-template-columns: 25% 25% 1fr 1fr ;
   grid-template-rows: 200px 200px;
   grid-row-gap: 20px;
   grid-column-gap: 15px;
@@ -166,19 +166,19 @@ li a {
 }
 .one {
  grid-column-start: 1;
- grid-column-end: span 1.5;
+ grid-column-end: span 1;
  grid-row-start: 1;
  grid-row-end: span 2;
 }
 .two{
- grid-column-start: 3;
- grid-column-end: span 1;
+ grid-column-start: 2;
+ grid-column-end: span 2;
  grid-row-start: 1;
  grid-row-end: span 2;
 }
 .three{
  grid-column-start: 4;
- grid-column-end: span 1;
+ grid-column-end: span 5;
  grid-row-start: 1;
  grid-row-end: span 2;
 }
@@ -189,40 +189,64 @@ li a {
  grid-row-end: span 6;
 }
 .five{
- grid-column-start: 3;
- grid-column-end: span 6;
- grid-row-start: 6;
- grid-row-end: span 6;
-}
-.six {
- grid-column-start: 1;
- grid-column-end: span 1.5;
- grid-row-start: 1;
- grid-row-end: span 2;
-}
-.seven{
  grid-column-start: 2;
- grid-column-end: span 2;
- grid-row-start: 1;
- grid-row-end: span 2;
-}
-.eight{
- grid-column-start: 2.5;
- grid-column-end: span 4;
- grid-row-start: 1;
- grid-row-end: span 2;
-}
-.nine{
- grid-column-start: 1;
- grid-column-end: span 2;
+ grid-column-end: span 1;
  grid-row-start: 3;
  grid-row-end: span 6;
+}
+.six{
+ grid-column-start: 3;
+ grid-column-end: span 1;
+ grid-row-start: 3;
+ grid-row-end: span 6;
+}
+.uno {
+ grid-column-start: 1;
+ grid-column-end: span 1;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.dos{
+ grid-column-start: 2;
+ grid-column-end: span 1;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.tres{
+ grid-column-start: 3;
+ grid-column-end: span 1;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.quatro{
+ grid-column-start: 4;
+ grid-column-end: span 1;
+ grid-row-start: 1;
+ grid-row-end: span 2;
  font-family:Georgia;
  font-size:15px;
 }
-.ten{
+.cinco{
+ grid-column-start: 1;
+ grid-column-end: span 1;
+ grid-row-start: 3;
+ grid-row-end: span 6;
+}
+.seis{
+ grid-column-start: 2;
+ grid-column-end: span 1;
+ grid-row-start: 3;
+ grid-row-end: span 6;
+}
+.siete{
  grid-column-start: 3;
- grid-column-end: span 6;
- grid-row-start: 4;
+ grid-column-end: span 1;
+ grid-row-start: 3;
+ grid-row-end: span 6;
+}
+.ocho{
+ grid-column-start: 4;
+ grid-column-end: span 1;
+ grid-row-start: 3;
  grid-row-end: span 6;
 }
