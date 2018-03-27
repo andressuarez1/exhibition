@@ -1,0 +1,228 @@
+body {
+    background: url("images/bluebackground.jpg");
+	background-color: #FFFFFF; 
+}
+.grid {
+  display: grid;
+  border: 2px  rgba(255, 255, 255, 0.1);
+  width: cover;
+  height: 100%;
+  grid-template-columns: 25% 25% 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-row-gap: 20px;
+  grid-column-gap: 15px;
+}
+.box {
+  background-color: white;
+  color:  black;
+  border-radius: 1px;
+  border: 2px  rgba(255, 255, 255, 0.1);
+}
+div.box {
+    background: rgba(255, 255, 255, 0.1);
+}
+ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+    overflow: hidden;
+    background-color:  white;
+}
+.menu li{
+	float: left;
+}
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.a{
+ grid-column-start: 1;
+ grid-column-end: span 1.5;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.b{
+ grid-column-start: 1;
+ grid-column-end: span 1;
+ grid-row-start: 3.5;
+ grid-row-end: span 6;
+}
+.description{
+ grid-column-start: 2;
+ grid-column-end: span 1;
+ grid-row-start: 3.5;
+ grid-row-end: span 6;
+}
+.c{
+ grid-column-start: 2;
+ grid-column-end: span 2.5;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.d{
+ grid-column-start: 3;
+ grid-column-end: span 6;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+ font-family:Georgia;
+ font-size:15px;
+}
+.e{
+ grid-column-start: 3;
+ grid-column-end: span 1;
+ grid-row-start: 3.5;
+ grid-row-end: span 6;
+}
+.description2{
+ grid-column-start: 4;
+ grid-column-end: span 1;
+ grid-row-start: 3.5;
+ grid-row-end: span 6;
+}
+.h{
+ grid-column-start: 1;
+ grid-column-end: span 2;
+ grid-row-start: 4;
+ grid-row-end: span 8;
+}
+.i{
+ grid-column-start: 4;
+ grid-column-end: span 5;
+ grid-row-start: 2;
+ grid-row-end: span 3;
+}
+.j{
+ grid-column-start: 4;
+ grid-column-end: span 1;
+ grid-row-start: 1;
+ grid-row-end: span 1;
+ font-family:Georgia;
+ font-size:35px;
+}
+.k{
+ grid-column-start: 3.5;
+ grid-column-end: span 3;
+ grid-row-start: 5;
+ grid-row-end: span 7;
+}
+.l{
+ grid-column-start: 1;
+ grid-column-end: span 2;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+  font-family:Georgia;
+ font-size:20px;
+}
+.m{
+ grid-column-start: 3;
+ grid-column-end: span 1;
+ grid-row-start: 2;
+ grid-row-end: span 3;
+}
+.o{
+ grid-column-start: 3;
+ grid-column-end: span 1;
+ grid-row-start: 1;
+ grid-row-end: span 1.5;
+  font-family:Georgia;
+ font-size:35px;
+}
+.n{
+ grid-column-start: 1;
+ grid-column-end: span 1;
+ grid-row-start: 3.5;
+ grid-row-end: span 2;
+}
+.p{
+ grid-column-start: 2;
+ grid-column-end: span 1;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+  font-family:Georgia;
+ font-size:25px;
+}
+.q{
+ grid-column-start: 3;
+ grid-column-end: span 1;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.r{
+ grid-column-start: 4;
+ grid-column-end: span 2;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+ font-family:Georgia;
+ font-size:25px;
+}
+.s{
+ grid-column-start: 2;
+ grid-column-end: span 1;
+ grid-row-start: 3;
+ grid-row-end: span 2;
+}
+.one {
+ grid-column-start: 1;
+ grid-column-end: span 1.5;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.two{
+ grid-column-start: 3;
+ grid-column-end: span 1;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.three{
+ grid-column-start: 4;
+ grid-column-end: span 1;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.four{
+ grid-column-start: 1;
+ grid-column-end: span 1;
+ grid-row-start: 3;
+ grid-row-end: span 6;
+}
+.five{
+ grid-column-start: 3;
+ grid-column-end: span 6;
+ grid-row-start: 6;
+ grid-row-end: span 6;
+}
+.six {
+ grid-column-start: 1;
+ grid-column-end: span 1.5;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.seven{
+ grid-column-start: 2;
+ grid-column-end: span 2;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.eight{
+ grid-column-start: 2.5;
+ grid-column-end: span 4;
+ grid-row-start: 1;
+ grid-row-end: span 2;
+}
+.nine{
+ grid-column-start: 1;
+ grid-column-end: span 2;
+ grid-row-start: 3;
+ grid-row-end: span 6;
+ font-family:Georgia;
+ font-size:15px;
+}
+.ten{
+ grid-column-start: 3;
+ grid-column-end: span 6;
+ grid-row-start: 4;
+ grid-row-end: span 6;
+}
