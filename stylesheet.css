@@ -169,6 +169,9 @@ li a {
  grid-column-end: span 1;
  grid-row-start: 1;
  grid-row-end: span 2;
+ font-family:Georgia;
+ font-size:18px;
+ color:white;
 }
 .two{
  grid-column-start: 2;
@@ -181,6 +184,9 @@ li a {
  grid-column-end: span 5;
  grid-row-start: 1;
  grid-row-end: span 2;
+ font-family:Georgia;
+ font-size:18px;
+ color:white;
 }
 .four{
  grid-column-start: 1;
@@ -193,6 +199,9 @@ li a {
  grid-column-end: span 1;
  grid-row-start: 3;
  grid-row-end: span 6;
+ font-family:Georgia;
+ font-size:18px;
+ color:white;
 }
 .six{
  grid-column-start: 3;
@@ -223,8 +232,6 @@ li a {
  grid-column-end: span 1;
  grid-row-start: 1;
  grid-row-end: span 2;
- font-family:Georgia;
- font-size:15px;
 }
 .cinco{
  grid-column-start: 1;
