@@ -14,7 +14,7 @@ body {
 }
 .box {
   background-color: white;
-  color:  black;
+  color:  white;
   border-radius: 1px;
   border: 2px  rgba(255, 255, 255, 0.1);
 }
@@ -55,20 +55,14 @@ li a {
  grid-column-end: span 1;
  grid-row-start: 3.5;
  grid-row-end: span 6;
+ font-family:Georgia;
+ font-size:25px;
 }
 .c{
  grid-column-start: 2;
  grid-column-end: span 2.5;
  grid-row-start: 1;
  grid-row-end: span 2;
-}
-.d{
- grid-column-start: 3;
- grid-column-end: span 6;
- grid-row-start: 1;
- grid-row-end: span 2;
- font-family:Georgia;
- font-size:15px;
 }
 .e{
  grid-column-start: 3;
@@ -81,6 +75,8 @@ li a {
  grid-column-end: span 1;
  grid-row-start: 3.5;
  grid-row-end: span 6;
+ font-family:Georgia;
+ font-size:25px;
 }
 .h{
  grid-column-start: 1;
@@ -170,8 +166,7 @@ li a {
  grid-row-start: 1;
  grid-row-end: span 2;
  font-family:Georgia;
- font-size:18px;
- color:white;
+ font-size:25px;
 }
 .two{
  grid-column-start: 2;
@@ -185,8 +180,7 @@ li a {
  grid-row-start: 1;
  grid-row-end: span 2;
  font-family:Georgia;
- font-size:18px;
- color:white;
+ font-size:25px;
 }
 .four{
  grid-column-start: 1;
@@ -200,8 +194,7 @@ li a {
  grid-row-start: 3;
  grid-row-end: span 6;
  font-family:Georgia;
- font-size:18px;
- color:white;
+ font-size:25px;
 }
 .six{
  grid-column-start: 3;
@@ -214,6 +207,8 @@ li a {
  grid-column-end: span 1;
  grid-row-start: 1;
  grid-row-end: span 2;
+ font-family:Georgia;
+ font-size:25px;
 }
 .dos{
  grid-column-start: 2;
